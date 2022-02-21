@@ -134,7 +134,7 @@ call <sid>hi('LineNr', s:Gray3, s:none, 'none')
 " Separators
 call <sid>hi('VertSplit', s:none, s:Gray2, 'none')
 call <sid>hi('StatusLine', s:none, s:Gray2, 'none')
-call <sid>hi('StatusLineNC', s:none, s:Gray2, 'none')
+call <sid>hi('StatusLineNC', s:Gray4, s:Gray2, 'none')
 
 " Visual
 call <sid>hi('Visual', s:none, s:Gray2, 'none')
