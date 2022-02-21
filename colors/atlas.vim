@@ -108,7 +108,7 @@ call <sid>hi('Exception', s:Gray, s:none, 'none')
 call <sid>hi('MatchParen', s:Red2, s:none, 'none')
 call <sid>hi('Comment', s:Gray3, s:none, 'none')
 call <sid>hi('PreProc', s:Gray, s:none, 'none')
-call <sid>hi('NonText', s:Red, s:none, 'none')
+call <sid>hi('NonText', s:Gray3, s:none, 'none')
 
 " Highlights
 call <sid>hi('Error', s:Red2, s:none, 'none')
