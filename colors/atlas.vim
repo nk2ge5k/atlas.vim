@@ -109,6 +109,7 @@ call <sid>hi('MatchParen', s:Red2, s:none, 'none')
 call <sid>hi('Comment', s:Gray3, s:none, 'none')
 call <sid>hi('PreProc', s:Gray, s:none, 'none')
 call <sid>hi('NonText', s:Gray3, s:none, 'none')
+call <sid>hi('WinSeparator', s:none, s:none, 'none')
 
 " Highlights
 call <sid>hi('Error', s:Red2, s:none, 'none')
@@ -147,6 +148,11 @@ call <sid>hi('TabLineSel', s:Gray, s:none, 'none')
 
 call <sid>hi('Title', s:Gray, s:none, 'none')
 call <sid>hi('Directory', s:Blue, s:none, 'none')
+
+" YAML
+call <sid>hi('yamlFlowString', s:Red, s:none, 'none')
+call <sid>hi('yamlFlowStringDelimiter', s:Red, s:none, 'none')
+call <sid>hi('yamlKeyValueDelimiter ', s:Red, s:none, 'none')
 
 hi ErrorMsg guifg=#c0c0c0 ctermfg=203 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi Folded guifg=#666666 ctermfg=242 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
@@ -216,6 +222,3 @@ hi xmlNamespace guifg=#c0c0c0 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi xmlAttribPunct guifg=#c0c0c0 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlProcessingDelim guifg=#c0c0c0 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
-hi yamlFlowString guifg=#c0c0c0 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi yamlFlowStringDelimiter guifg=#c0c0c0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi yamlKeyValueDelimiter guifg=#c0c0c0 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
