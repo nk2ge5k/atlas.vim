@@ -90,7 +90,7 @@ call <sid>hi('gitcommitDiscardedFile', s:Gray, s:none, 'none')
 call <sid>hi('gitcommitSelectedFile', s:Gray, s:none, 'none')
 
 " General
-call <sid>hi('Normal', s:Gray, s:Black, 'none')
+call <sid>hi('Normal', s:Gray, s:none, 'none')
 call <sid>hi('Type', s:Gray, s:none, 'none')
 call <sid>hi('Constant', s:Gray, s:none, 'none')
 call <sid>hi('Function', s:Gray, s:none, 'bold')
